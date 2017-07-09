@@ -18,6 +18,9 @@ library(devtools)
 #install latest twitteR from github
 install_github("twitteR",username="geoffjentry")
 
+#load twitteR package for auth and fetching tweets
+library(twitteR)
+
 #create api key and others mentioned here by visiting dev.twitter.com
 api_key <- "XXXXXXXXXXXXX"
 api_secret <- "XXXXXXXXXXXXXXXX"
