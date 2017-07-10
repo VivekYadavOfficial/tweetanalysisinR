@@ -12,7 +12,7 @@ After cleaning the text, we want to create the wordcloud to have some idea of th
 Next, using the in built function of tm package, we remove the stopwords as they are the most common words like a, the, an etc.
 Now, using the wordcloud package, a wordcloud is created using the frequency of each word.
 
-![wordcloud plot](https:/github.com/VivekYadavOfficial/tweetanalysisinR/raw/master/wordclou.PNG)
+![wordcloud plot](https:/github.com/VivekYadavOfficial/tweetanalysisinR/raw/master/wordcloud.PNG)
 
 Then for sentiment analysis, I have just used simple scoring function i.e. scoring by each word. Searching for each in the positive and negative words list.
 
@@ -25,7 +25,7 @@ Using this information and other information in the fetched tweets data, you can
 I have plotted two simple plots.
 ![Simple Plot 1](https://github.com/VivekYadavOfficial/tweetanalysisinR/raw/master/plot1.png)
 
-![Simple Plot 2](https:/github.com/VivekYadavOfficial/tweetanalysisinR/raw/master/plot.png)
+![Simple Plot 2](https://github.com/VivekYadavOfficial/tweetanalysisinR/raw/master/plot.png)
 
 Finally, a lot more can be added to the features of this projects or new feature itself.
 
