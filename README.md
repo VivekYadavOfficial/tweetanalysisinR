@@ -12,7 +12,7 @@ After cleaning the text, we want to create the wordcloud to have some idea of th
 Next, using the in built function of tm package, we remove the stopwords as they are the most common words like a, the, an etc.
 Now, using the wordcloud package, a wordcloud is created using the frequency of each word.
 
-![wordcloud plot](https:/github.com/VivekYadavOfficial/tweetanalysisinR/raw/master/wordcloud.PNG)
+![wordcloud plot](https://github.com/VivekYadavOfficial/tweetanalysisinR/raw/master/wordcloud.PNG)
 
 Then for sentiment analysis, I have just used simple scoring function i.e. scoring by each word. Searching for each in the positive and negative words list.
 
